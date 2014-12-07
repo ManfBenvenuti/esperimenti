@@ -1,0 +1,25 @@
+$navbar-default-link-active-bg:	#346782;
+$navbar-default-link-active-color: #fff;
+$navbar-default-link-hover-bg: #346782;
+$navbar-default-link-hover-color: #fff;
+$navbar-default-link-color: #346782;
+
+body { padding-top: 70px; }
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+.nav-color {
+	background-color:#fff;
+}
+
+.logo {
+	width:100px;
+	margin-top:-10px;
+}
+
+.foot-down { 
+	margin-bottom: 0 auto -60px; 
+}
