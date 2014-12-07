@@ -11,13 +11,13 @@ class PagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get product" do
-    get :product
+  test "should get products" do
+    get :products
     assert_response :success
   end
 
-  test "should get price" do
-    get :price
+  test "should get prices" do
+    get :prices
     assert_response :success
   end
 

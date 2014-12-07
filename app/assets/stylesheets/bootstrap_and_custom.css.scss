@@ -4,7 +4,7 @@ $navbar-default-link-hover-bg: #346782;
 $navbar-default-link-hover-color: #fff;
 $navbar-default-link-color: #346782;
 
-body { padding-top: 70px; }
+// body { padding-top: 70px; }
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -16,10 +16,18 @@ body { padding-top: 70px; }
 }
 
 .logo {
-	width:100px;
+	width:50px;
 	margin-top:-10px;
 }
 
 .foot-down { 
 	margin-bottom: 0 auto -60px; 
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.car-img {
+	width:700px;
 }
